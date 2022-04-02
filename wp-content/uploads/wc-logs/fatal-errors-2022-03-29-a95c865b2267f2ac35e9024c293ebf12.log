@@ -1,0 +1,158 @@
+2022-03-29T07:25:00+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 263
+
+2022-03-29T08:20:14+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on string in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:169
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 169
+
+2022-03-29T08:20:33+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:175
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 175
+
+2022-03-29T08:23:38+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:169
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 169
+
+2022-03-29T08:29:35+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:170
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 170
+
+2022-03-29T08:31:55+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on int in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:171
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 171
+
+2022-03-29T08:42:01+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:170
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 170
+
+2022-03-29T08:44:05+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_name_by_id() in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:170
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 170
+
+2022-03-29T08:45:21+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:170
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 170
+
+2022-03-29T08:46:15+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 170
+
+2022-03-29T08:46:29+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:170
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 170
+
+2022-03-29T08:48:18+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:171
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 171
+
+2022-03-29T08:48:27+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:171
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 171
+
+2022-03-29T08:50:58+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:179
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 179
+
+2022-03-29T08:51:44+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:180
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 180
+
+2022-03-29T08:55:05+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php:180
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\content-single-product.php на строке 180
+

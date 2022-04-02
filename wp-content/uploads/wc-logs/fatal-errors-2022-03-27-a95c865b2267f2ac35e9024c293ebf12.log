@@ -1,0 +1,222 @@
+2022-03-27T11:09:08+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:109
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 109
+
+2022-03-27T11:12:26+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:109
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 109
+
+2022-03-27T11:13:11+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:110
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 110
+
+2022-03-27T11:13:40+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_categories() in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:110
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 110
+
+2022-03-27T11:27:54+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-deprecated-hooks.php на строке 75
+
+2022-03-27T11:39:24+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 302
+
+2022-03-27T11:41:25+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:142
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 142
+
+2022-03-27T11:44:53+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:129
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 129
+
+2022-03-27T11:46:23+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:131
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 131
+
+2022-03-27T11:46:38+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:131
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 131
+
+2022-03-27T11:46:59+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:131
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 131
+
+2022-03-27T11:48:40+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:131
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 131
+
+2022-03-27T11:49:02+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:131
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 131
+
+2022-03-27T11:49:15+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:131
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 131
+
+2022-03-27T11:51:35+00:00 CRITICAL syntax error, unexpected '$product' (T_VARIABLE), expecting ';' or ',' в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 138
+
+2022-03-27T11:51:47+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_categotier() in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:138
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 138
+
+2022-03-27T11:52:15+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_categoties() in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:138
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 138
+
+2022-03-27T11:52:22+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_categoties() in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:138
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 138
+
+2022-03-27T11:52:53+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_categoties() in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:139
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 139
+
+2022-03-27T11:52:58+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_categoties() in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:139
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 139
+
+2022-03-27T12:06:51+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:122
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 122
+
+2022-03-27T12:09:34+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:128
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 128
+
+2022-03-27T12:09:52+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:129
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 129
+
+2022-03-27T12:25:42+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:131
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 131
+
+2022-03-27T12:26:12+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:131
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 131
+
+2022-03-27T12:26:27+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:131
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 131
+
+2022-03-27T12:51:52+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:137
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 137
+
+2022-03-27T15:09:31+00:00 CRITICAL Uncaught Error: Call to undefined function parse_ur() in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:25
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 25
+
+2022-03-27T15:09:54+00:00 CRITICAL Uncaught Error: Call to undefined function parse_ur() in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:25
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 25
+
+2022-03-27T15:09:58+00:00 CRITICAL Uncaught Error: Call to undefined function parse_ur() in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php:25
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\archive-product.php на строке 25
+

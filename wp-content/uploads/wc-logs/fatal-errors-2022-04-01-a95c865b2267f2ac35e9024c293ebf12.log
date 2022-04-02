@@ -1,0 +1,24 @@
+2022-04-01T11:21:48+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on string in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\functions.php:224
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\class-wp-hook.php(307): change_cart_item_quantities()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-includes\plugin.php(474): WP_Hook->do_action()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-cart.php(8): do_action()
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\functions.php на строке 224
+
+2022-04-01T11:22:43+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on string in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\functions.php:224
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\class-wp-hook.php(307): change_cart_item_quantities()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-includes\plugin.php(474): WP_Hook->do_action()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-cart.php(17): do_action()
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\functions.php на строке 224
+
