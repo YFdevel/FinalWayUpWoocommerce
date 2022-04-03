@@ -3,6 +3,7 @@
     let categoryName = '';
     $('.item-size-value:eq(0)').addClass('active');
 
+
     let address = $(location).attr('href')
     $('.menu__item a').removeClass('active');
 
@@ -145,6 +146,7 @@
             $(this).addClass('active');
             return false;
         })
+
         $('.hamburger').on('click', function () {
             $('#primary-menu').parent().toggleClass("d-none");
             $('#primary-menu').toggleClass("active");
@@ -169,9 +171,7 @@
 
         $('.tab-item_goods').on('click', function () {
             const currTab = $(this).index();
-            // window.history.pushState( {} , '', '?cat='+$(this).val() );
             window.location.href = 'http://localhost/final-wayup/shop/?cat=' + $(this).val();
-
         })
 
 

@@ -27,30 +27,6 @@ global $redux;
             </div>
 
             <div class="col-lg-5 offset-lg-1 d-none d-lg-block">
-<!--                <ul class="menu menu_footer">-->
-<!--                    <li class="menu__item menu__item_footer">-->
-<!--                        <a href="index.html" class="footer-goods-link active">Главная</a>-->
-<!--                    </li>-->
-<!--                    <li class="menu__item menu__item_footer">-->
-<!--                        <a href="shop.html" class="footer-goods-link">Магазин</a>-->
-<!--                        <ul class="footer-goods">-->
-<!--                            <li class="footer-goods__item">-->
-<!--                                <a href="#">Пальто</a>-->
-<!--                            </li>-->
-<!--                            <li class="footer-goods__item">-->
-<!--                                <a href="#">Свитшоты</a>-->
-<!--                            </li>-->
-<!--                            <li class="footer-goods__item">-->
-<!--                                <a href="#">Кардиганы</a>-->
-<!--                            </li>-->
-<!--                            <li class="footer-goods__item">-->
-<!--                                <a href="#">Толстовки</a>-->
-<!--                            </li>-->
-<!--                        </ul>-->
-<!--                    </li>-->
-<!--                    <li class="menu__item menu__item_footer"><a href="brand.html" class="footer-goods-link">О бренде</a></li>-->
-<!--                    <li class="menu__item menu__item_footer"><a href="contact.html" class="footer-goods-link">Контакты</a></li>-->
-<!--                </ul>-->
                 <?php
                 wp_nav_menu(
                     array(
@@ -100,6 +76,39 @@ global $redux;
     </div>
 </div>
 
+
+<div class="modals">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="wrapper-modal">
+                    <div id="overlay"></div>
+                    <div id="modal-window" class="modal-window">
+                        <div class="modal-window-content">
+                            <img src="<?= $redux['modal-close']['url'] ?>" alt="close" class="popup-close">
+                            <h4 class="modal-window-content__title">Заказать обратный звонок</h4>
+                            <form action="#" class="form popup-form" id="popup-form" method="post">
+                                <input type="text" class="form-input popup-form__input" placeholder="Имя"
+                                       name="name">
+                                <input type="text" class="form-input popup-form__input" placeholder="E-mail"
+                                       name="email">
+                                <input type="text" class="form-input popup-form__input" placeholder="Телефон"
+                                       name="phone">
+                                <button type="submit" class="popup-form__btn btn btn-green">Заказать звонок</button>
+                            </form>
+                            <div class="message-for-user">
+                                <div class="text-success-form">
+                                    Спасибо! Мы обязательно вам перезвоним
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php wp_footer(); ?>
 

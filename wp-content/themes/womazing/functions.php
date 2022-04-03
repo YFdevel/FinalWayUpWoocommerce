@@ -199,6 +199,8 @@ require get_template_directory() . '/inc/redux-config.php';
  */
 require get_template_directory() . '/inc/woo.php';
 
+
+
 //add_filter( 'woocommerce_product_variation_title_include_attributes', '__return_false' );
 //add_filter( 'woocommerce_is_attribute_in_product_name', '__return_false' );
 
@@ -208,4 +210,19 @@ function truemisha_products_per_page( $per_page ) {
     $per_page = 9;
     return $per_page;
 }
+
+
+
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+
+
+function custom_override_checkout_fields( $array ) {
+    unset($array['order']['order_comments']);
+    unset($array['billing']['billing_postcode']);
+    unset($array['billing']['billing_country']);
+    unset($array['billing']['billing_last_name']);
+    unset($array['billing']['billing_state']);
+    return $array;
+}
+
 

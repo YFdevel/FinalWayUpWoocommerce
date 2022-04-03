@@ -21,6 +21,7 @@ $show_shipping = ! wc_ship_to_billing_address_only() && $order->needs_shipping_a
 ?>
 <section class="woocommerce-customer-details">
 
+
 	<?php if ( $show_shipping ) : ?>
 
 	<section class="woocommerce-columns woocommerce-columns--2 woocommerce-columns--addresses col2-set addresses">

@@ -389,6 +389,17 @@ Redux::set_section(
 );
 require_once get_template_directory() . '/inc/redux-components/modal/modal.php';
 
+Redux::set_section(
+    $opt_name,
+    array(
+        'title'            => esc_html__('Страница подтверждения заказа', 'your-textdomain-here' ),
+        'id'               => 'success-page',
+        'desc'             => esc_html__( 'Редактирование страницы подтверждения заказа', 'your-textdomain-here' ),
+        'customizer_width' => '400px',
+    )
+);
+require_once get_template_directory() . '/inc/redux-components/success/success.php';
+
 //Redux::set_section(
 //	$opt_name,
 //	array(

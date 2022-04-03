@@ -50,8 +50,7 @@ Redux::set_section(
             array(
                 'id' => 'dream-link-dir',
                 'type' => 'text',
-                'title' => esc_html__('Ссылка', 'your-textdomain-here'),
-                'default' => '#',
+                'title' => esc_html__('Ссылка', 'your-textdomain-here')
             ),
             array(
                 'id' => 'dream-image-arrow-prev',

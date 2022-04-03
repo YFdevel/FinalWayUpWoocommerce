@@ -168,38 +168,7 @@ get_header();
     </section>
 
 
-    <div class="modals">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <div id="wrapper-modal">
-                        <div id="overlay"></div>
-                        <div id="modal-window" class="modal-window">
-                            <div class="modal-window-content">
-                                <img src="img/close.png" alt="close" class="popup-close">
-                                <h4 class="modal-window-content__title">Заказать обратный звонок</h4>
-                                <form action="#" class="form popup-form" id="popup-form" method="post">
-                                    <input type="text" class="form-input popup-form__input" placeholder="Имя"
-                                           name="name">
-                                    <input type="text" class="form-input popup-form__input" placeholder="E-mail"
-                                           name="email">
-                                    <input type="text" class="form-input popup-form__input" placeholder="Телефон"
-                                           name="phone">
-                                    <button type="submit" class="popup-form__btn btn btn-green">Заказать звонок</button>
-                                </form>
-                                <div class="message-for-user">
-                                    <div class="text-success-form">
-                                        Спасибо! Мы обязательно вам перезвоним
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-        </div>
-    </div>
 <?php
 get_footer();
 

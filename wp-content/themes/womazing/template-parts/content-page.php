@@ -8,7 +8,24 @@
  */
 
 ?>
+<section class="breadcrumbs-section breadcrumbs-section_one-item">
+    <div class="container">
+        <h1 class="breadcrumbs-title">
+            <?= get_the_title();?>
+        </h1>
 
+        <?php
+
+        $args = array(
+            'delimiter' => '<div class="delimiter"></div>',
+            'wrap_before' => '<nav class="woocommerce-breadcrumb breadcrumbs">',
+            'wrap_after' => '</nav>'
+        );
+        woocommerce_breadcrumb($args);
+        ?>
+
+    </div>
+</section>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>

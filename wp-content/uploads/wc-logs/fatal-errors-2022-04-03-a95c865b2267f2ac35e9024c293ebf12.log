@@ -1,0 +1,112 @@
+2022-04-03T07:28:08+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php:52
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php на строке 52
+
+2022-04-03T07:28:41+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php:52
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php на строке 52
+
+2022-04-03T07:38:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woocommerce_form_field(), 1 passed in C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\checkout\form-billing.php on line 41 and at least 2 expected in C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-template-functions.php:2726
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\checkout\form-billing.php(41): woocommerce_form_field()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(296): wc_get_template()
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-includes\class-wp-hook.php(307): WC_Checkout->checkout_form_billing()
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters( в C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 2726
+
+2022-04-03T10:04:24+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file в C:\OpenServer\domains\localhost\final-wayup\wp-content\plugins\woocommerce\templates\checkout\form-billing.php на строке 138
+
+2022-04-03T10:13:39+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php:65
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php на строке 65
+
+2022-04-03T10:32:35+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php:65
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php на строке 65
+
+2022-04-03T10:33:34+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php:26
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php на строке 26
+
+2022-04-03T10:34:03+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php:26
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php на строке 26
+
+2022-04-03T10:34:52+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php:26
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php на строке 26
+
+2022-04-03T10:35:32+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php:26
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php на строке 26
+
+2022-04-03T10:50:44+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php:208
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php на строке 208
+
+2022-04-03T10:51:03+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php:208
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\template-checkout.php на строке 208
+
+2022-04-03T11:45:11+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\form-billing.php:47
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\functions.php(202): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-settings.php(555): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\form-billing.php на строке 47
+
+2022-04-03T11:46:22+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\form-billing.php:47
+Stack trace:
+#0 C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\functions.php(202): require()
+#1 C:\OpenServer\domains\localhost\final-wayup\wp-settings.php(555): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\final-wayup\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\localhost\final-wayup\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\final-wayup\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\final-wayup\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\localhost\final-wayup\wp-content\themes\womazing\woocommerce\form-billing.php на строке 47
+

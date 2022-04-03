@@ -7,23 +7,22 @@ get_header();
 global $redux;
 ?>
 
-<section class="breadcrumbs-section">
+<section class="breadcrumbs-section breadcrumbs-section_one-item">
     <div class="container">
         <h1 class="breadcrumbs-title">
-            О бренде
+           О бренде
         </h1>
-        <ul class="breadcrumbs">
-            <li class="breadcrumbs__item">
-                <a href="#" class="breadcrumbs__link">
-                    Главная
-                </a>
-            </li>
-            <li class="breadcrumbs__item">
-                <span class="breadcrumbs__text">
-                   О бренде
-                </span>
-            </li>
-        </ul>
+
+        <?php
+
+        $args = array(
+            'delimiter' => '<div class="delimiter"></div>',
+            'wrap_before' => '<nav class="woocommerce-breadcrumb breadcrumbs">',
+            'wrap_after' => '</nav>'
+        );
+        woocommerce_breadcrumb($args);
+        ?>
+
     </div>
 </section>
 
@@ -100,37 +99,6 @@ global $redux;
 
 </section>
 
-<div class="modals">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div id="wrapper-modal">
-                    <div id="overlay"></div>
-                    <div id="modal-window" class="modal-window">
-                        <div class="modal-window-content">
-                            <img src="<?= $redux['modal-close']['url'] ?>" alt="close" class="popup-close">
-                            <h4 class="modal-window-content__title">Заказать обратный звонок</h4>
-                            <form action="#" class="form popup-form" id="popup-form" method="post">
-                                <input type="text" class="form-input popup-form__input" placeholder="Имя" name="name">
-                                <input type="text" class="form-input popup-form__input" placeholder="E-mail"
-                                       name="email">
-                                <input type="text" class="form-input popup-form__input" placeholder="Телефон"
-                                       name="phone">
-                                <button type="submit" class="popup-form__btn btn btn-green">Заказать звонок</button>
-                            </form>
-                            <div class="message-for-user">
-                                <div class="text-success-form">
-                                    Спасибо! Мы обязательно вам перезвоним
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
 
 <?php
 
