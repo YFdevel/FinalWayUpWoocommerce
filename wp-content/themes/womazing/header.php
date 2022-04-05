@@ -72,7 +72,19 @@ global $redux;
                         <img src="<?= $redux['header-content-tel-img']['url']?>" alt="phone" class="phone-white">
                     </a>
                     <a href="tel:<?= $redux['header-content-tel-text']?>" class="header-right__tel-text"><?= $redux['header-content-tel-text']?></a>
-                    <a href="/final-wayup/cart-2"><img src="<?= $redux['header-content-img-cart']['url']?>" alt="cart" class="header-right__cart"></a>
+
+
+
+                    <div class="s-header__basket-wr woocommerce">
+                        <?php
+                        global $woocommerce; ?>
+                        <a href="<?php echo $woocommerce->cart->get_cart_url() ?>" class="basket-btn basket-btn_fixed-xs">
+                            <img src="<?= $redux['header-content-img-cart']['url']?>" alt="cart" class="header-right__cart basket-btn__label">
+                            <span class="basket-btn__counter"><?php echo sprintf($woocommerce->cart->cart_contents_count); ?></span>
+                        </a>
+                    </div>
+
+
                 </div>
             </div>
         </div>

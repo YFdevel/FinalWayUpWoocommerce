@@ -225,4 +225,12 @@ function custom_override_checkout_fields( $array ) {
     return $array;
 }
 
+add_filter( 'nav_menu_css_class', 'add_custom_class', 10, 2 );
+
+function add_custom_class( $classes, $item )  {
+    if ( is_product_category( 'cat1' ) ) {
+        $classes[] = 'current-menu-item';
+    }
+    return $classes;
+}
 

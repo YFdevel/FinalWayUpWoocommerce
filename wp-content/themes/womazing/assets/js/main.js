@@ -7,26 +7,27 @@
     let address = $(location).attr('href')
     $('.menu__item a').removeClass('active');
 
-    switch (address.slice(address.lastIndexOf("/"))) {
-        case "/index.html":
-            $('.menu__item_header a:eq(0)').addClass('active');
-            $('.menu__item_footer a:first-of-type:eq(0)').addClass('active');
-            break;
-        case "/shop.html":
-            $('.menu__item_header a:eq(1)').addClass('active');
-            $('.menu__item_footer a:first-of-type:eq(1)').addClass('active');
-            break;
-        case "/brand.html":
-            $('.menu__item_header a:eq(2)').addClass('active');
-            $('.menu__item_footer a:first-of-type:eq(2)').addClass('active');
-            break;
-        case "/contact.html":
-            $('.menu__item_header a:eq(3)').addClass('active');
-            $('.menu__item_footer a:first-of-type:eq(3)').addClass('active');
-            break;
-        default:
-            break;
-    }
+    // switch (address.slice(address.lastIndexOf("/"))) {
+    //     case "/":
+    //         $('.menu__item_header a:eq(0)').addClass('active');
+    //         $('.menu__item_footer a:first-of-type:eq(0)').addClass('active');
+    //         break;
+    //     case "/shop":
+    //         $('.menu__item_header a:eq(1)').addClass('active');
+    //         $('.menu__item_footer a:first-of-type:eq(1)').addClass('active');
+    //         break;
+    //     case "/brand":
+    //         $('.menu__item_header a:eq(2)').addClass('active');
+    //         $('.menu__item_footer a:first-of-type:eq(2)').addClass('active');
+    //         break;
+    //     case "/contact":
+    //         $('.menu__item_header a:eq(3)').addClass('active');
+    //         $('.menu__item_footer a:first-of-type:eq(3)').addClass('active');
+    //         break;
+    //     default:
+    //         break;
+    // }
+
     $('.woocommerce-pagination ul').addClass('tabs tabs_pages');
 
     $(window).on('scroll', function () {
@@ -148,15 +149,15 @@
         })
 
         $('.hamburger').on('click', function () {
-            $('#primary-menu').parent().toggleClass("d-none");
+            $('#primary-menu').parent().parent().toggleClass("d-none");
             $('#primary-menu').toggleClass("active");
         })
 
         $('.item-size-value').on('click', function (e) {
             $('.item-size-value').removeClass('active');
             $(this).addClass('active');
-
         })
+
 
         $('.item-color-value').on('click', function () {
             $('.item-color-value').removeClass('active');
@@ -239,11 +240,15 @@
                         })
                         .always(function () {
                             setTimeout(function () {
-                                if (isSuccess) {
+                                 // if (isSuccess) {
                                     $('.message-for-user').fadeIn();
-                                }
+                                 // }
                                 $(dataForm).trigger('reset');
+                                setTimeout(function () {
+                                    $('.message-for-user').fadeOut();
+                                }, 1500);
                             }, 1000);
+
                             $('.message-for-user').on('click', function (e) {
                                 $(this).fadeOut();
                             });

@@ -76,7 +76,7 @@ get_header();
                                                   data-title="<?php esc_attr_e('Price', 'woocommerce'); ?>">
                                             <?php echo apply_filters('woocommerce_cart_item_price', WC()->cart->get_product_price($_product), $cart_item, $cart_item_key); ?>
                                         </span>
-                                            <div class="cart-bottom-amount product-quantity"
+                                            <div class="cart-bottom-amount product-quantity item-count-btn"
                                                  data-title="<?php esc_attr_e('Quantity', 'woocommerce'); ?>">
                                                 <?php
                                                 if ($_product->is_sold_individually()) {
